@@ -3,7 +3,6 @@ import { IoIosSearch } from "react-icons/io";
 import { WiHumidity } from "react-icons/wi";
 import { WiStrongWind } from "react-icons/wi";
 import axios from 'axios';
-;
 
 function App() {
   const [search,setSearch]=useState("")
