@@ -6,7 +6,6 @@ import axios from 'axios';
 
 function App() {
   const [search,setSearch]=useState("")
-  //const [loading,setLoading]=useState(false)
   const [temperature,setTemperature]=useState(null)
   const [humidity,setHumidity]=useState(null)
   const [windSpeed,setWindSpeed]=useState(null)
@@ -17,8 +16,6 @@ function App() {
   const API_KEY= import.meta.env.VITE_API_KEY;
   const fetchWeather=async()=>{
     console.log(search)
-    //if(!search) return;
-    //setLoading(true)
     try{
       const {data} = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=${API_KEY}&units=metric`);
       console.log(data);
@@ -39,7 +36,6 @@ function App() {
       setWindSpeed(null);
       setweatherIcon("01d");
     }
-    //setLoading(false);
   }
     return (
   <>
