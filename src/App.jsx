@@ -2,9 +2,8 @@ import React, { useState } from 'react'
 import { IoIosSearch } from "react-icons/io";
 import { WiHumidity } from "react-icons/wi";
 import { WiStrongWind } from "react-icons/wi";
-//import wicon from "./wicon.png";
 import axios from 'axios';
-//import { setSelectionRange } from '@testing-library/user-event/dist/utils';
+;
 
 function App() {
   const [search,setSearch]=useState("")
