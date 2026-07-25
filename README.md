@@ -1,18 +1,13 @@
 # Weather Application 🌤️
 
-A responsive weather application built with React.js and Vite. 
-Users can search any city and get real-time weather data using OpenWeather API.
+A responsive weather app built with React.js, Vite, and Tailwind CSS. 
+Fetches live weather data using OpenWeather API.
 
-## ✨ Features
-- Search weather by city name
-- Shows temperature, humidity, wind speed
-- Responsive design with Tailwind CSS
-- Live data from OpenWeather API
-
-## 🛠️ Tech Stack
-- **Frontend**: React.js, Vite
-- **Styling**: Tailwind CSS
-- **API**: OpenWeather API
+## Tech Stack
+- React.js
+- Vite
+- Tailwind CSS
+- OpenWeather API
 
 ## How to Run
 1. Clone the repo
