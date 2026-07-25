@@ -2,6 +2,9 @@
 
 A responsive weather app built with React.js, Vite, and Tailwind CSS. 
 Fetches live weather data using OpenWeather API.
+- Search weather by city name
+- Shows temperature, humidity, wind speed
+- Responsive design for mobile and desktop
 
 ## Tech Stack
 - React.js
